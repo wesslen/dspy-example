@@ -1,0 +1,9 @@
+arize-phoenix-otel
+arize-phoenix
+openinference-instrumentation-openai
+openinference-instrumentation-dspy
+openinference-instrumentation-litellm
+python-dotenv
+openai
+sacrebleu
+dspy

@@ -1,0 +1,17 @@
+[project]
+name = "dspy-example"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "arize-phoenix>=12.19.0",
+    "arize-phoenix-otel>=0.14.0",
+    "dspy>=3.0.4",
+    "openai>=2.8.1",
+    "openinference-instrumentation-dspy>=0.1.30",
+    "openinference-instrumentation-litellm>=0.1.28",
+    "openinference-instrumentation-openai>=0.1.40",
+    "python-dotenv>=1.2.1",
+    "sacrebleu>=2.5.1",
+]
