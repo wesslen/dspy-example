@@ -1,0 +1,55 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "source": "¿Puedo transferir $1.500,00 a mi cuenta de ahorros?",
+        "reference": "Can I transfer $1,500.00 to my savings account?",
+        "lang": "Spanish",
+        "reasoning": "The sentence is a simple question asking whether a transfer is possible. The structure in Spanish is directly translatable to English: subject “I”, verb “can transfer”, amount “$1,500.00” (Spanish uses comma as decimal separator, so use a period in English), and target “my savings account.” The punctuation follows standard English usage.",
+        "translation": "Can I transfer $1,500.00 to my savings account?"
+      },
+      {
+        "source": "¿Puede usted ayudarme a abrir una cuenta corriente?",
+        "reference": "Can you help me open a checking account?",
+        "lang": "Spanish"
+      },
+      {
+        "source": "No puedo acceder a mi banca en línea.",
+        "reference": "I cannot access my online banking.",
+        "lang": "Spanish"
+      }
+    ],
+    "signature": {
+      "instructions": "Translate to English",
+      "fields": [
+        {
+          "prefix": "Lang:",
+          "description": "language to translate from"
+        },
+        {
+          "prefix": "Source:",
+          "description": "a sentence for translation"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Translation:",
+          "description": "translation in english"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.12",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}
